@@ -60,13 +60,13 @@ This is a Django-based blog project with user authentication and APIs for managi
 ### Blog Posts
 
 - `GET /blog/`: List all blog posts.
-- `POST /blog/create`: Create a new blog post (requires authentication).
-- `PUT /blog/create/<blog_id>/`: Update a blog post (requires author's authentication).
+- `POST /blog/create/`: Create a new blog post (requires authentication).
+- `PUT /blog/<blog_id>/update/`: Update a blog post (requires author's authentication).
 
 ### Comments
 
 - `GET /blog/<blog_id>/comments/`: List comments on a blog post.
-- `POST /blog/create/<blog_id>/comments/`: Create a comment on a blog post (requires authentication).
+- `POST /blog/<blog_id>/comments/create/`: Create a comment on a blog post (requires authentication).
 
 
 
